@@ -1,0 +1,16 @@
+#QuickJSButton {
+  list-style-image: url("chrome://quickjs/content/quickJS16.png");
+}
+
+#QuickJSButton[checked="true"] {
+  list-style-image: url("chrome://quickjs/content/quickJS16Off.png");
+}
+
+#QuickJSButtonMobile {
+  list-style-image: url("chrome://quickjs/content/quickJS16mobile.png");
+}
+
+#QuickJSButtonMobile[checked="true"] {
+  list-style-image: url("chrome://quickjs/content/quickJS16Offmobile.png");
+}
+

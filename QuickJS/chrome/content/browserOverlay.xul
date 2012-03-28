@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" 
+    href="chrome://quickjs/content/quickjs.css"?> 
+
+<!DOCTYPE window SYSTEM "chrome://quickjs/locale/quickjs.dtd">
+
+<overlay id="quickjs-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
+
+    <script type="application/x-javascript" src="chrome://quickjs/content/browserOverlay.js" /> 
+    
+    <window id="main-window">
+        <keyset id="mainKeyset">
+            <key id="key_quickJSKeys" key="q" oncommand="quickJS_toggle();" modifiers="control"/>
+        </keyset>
+    </window>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="QuickJSButton" class="toolbarbutton-1 chromeclass-toolbar-additional"
+            label="QuickJS" tooltiptext="&quickjs.tooltip.value;"
+            oncommand="quickJS_toggle();">
+        </toolbarbutton>
+    </toolbarpalette>
+    
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="strings_QuickJS" src="chrome://quickjs/locale/quickjs.properties"/>
+    </stringbundleset>
+
+</overlay> 
