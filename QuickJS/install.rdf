@@ -5,21 +5,14 @@ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
         <em:id>{bb65e674-b194-4b6e-8033-5fa0afe3a198}</em:id>
         <em:type>2</em:type>
         <em:name>QuickJS</em:name>
-        <em:version>1.2</em:version>
+        <em:version>1.3</em:version>
         <em:description>Allows quick enable and disable of Javascript via toolbar-button.</em:description>
         <em:creator>eiji.anonremail@gmail.com</em:creator>
         <em:targetApplication>
             <Description>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
                 <em:minVersion>4.0</em:minVersion>
-                <em:maxVersion>6.0a2</em:maxVersion>
-            </Description>
-        </em:targetApplication>
-        <em:targetApplication>
-            <Description>
-                <em:id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</em:id>
-                <em:minVersion>4.0</em:minVersion>
-                <em:maxVersion>6.0a2</em:maxVersion>
+                <em:maxVersion>31.0</em:maxVersion>
             </Description>
         </em:targetApplication>
     </Description>

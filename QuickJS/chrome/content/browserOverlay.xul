@@ -6,8 +6,8 @@
 
 <overlay id="quickjs-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
 
-    <script type="application/x-javascript" src="chrome://quickjs/content/browserOverlay.js" /> 
-    
+    <script type="application/x-javascript" src="chrome://quickjs/content/browserOverlay.js" />
+
     <window id="main-window">
         <keyset id="mainKeyset">
             <key id="key_quickJSKeys" key="q" oncommand="quickJS_toggle();" modifiers="control"/>

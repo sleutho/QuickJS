@@ -2,7 +2,3 @@ content    quickjs    chrome/content/
 overlay	   chrome://browser/content/browser.xul    chrome://quickjs/content/browserOverlay.xul
 locale     quickjs   en-US   chrome/locale/en-US/
 style	chrome://global/content/customizeToolbar.xul	chrome://quickjs/content/quickjs.css
-
-# Mobile tweaks
-override chrome://quickjs/content/browserOverlay.xul chrome://quickjs/content/mobileOverlay.xul application={a23983c0-fd0e-11dc-95ff-0800200c9a66}
-
